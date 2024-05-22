@@ -1,0 +1,187 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * new-science:
+ *   - http://typekit.com/eulas/00000000000000007753f725
+ *   - http://typekit.com/eulas/00000000000000007753f721
+ * new-science-extended:
+ *   - http://typekit.com/eulas/00000000000000007753f727
+ *   - http://typekit.com/eulas/00000000000000007753f71d
+ *
+ * © 2009-2024 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2024-05-01 14:03:19 UTC"}*/
+
+@import url("https://p.typekit.net/p.css?s=1&k=muy8apo&ht=tk&f=55777.55778.55782.55786&a=145976267&app=typekit&e=css");
+
+@font-face {
+font-family:"new-science";
+src:url("https://use.typekit.net/af/b3d652/00000000000000007753f725/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/b3d652/00000000000000007753f725/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/b3d652/00000000000000007753f725/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"new-science";
+src:url("https://use.typekit.net/af/94fcc4/00000000000000007753f721/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/94fcc4/00000000000000007753f721/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/94fcc4/00000000000000007753f721/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"new-science-extended";
+src:url("https://use.typekit.net/af/261ae5/00000000000000007753f727/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/261ae5/00000000000000007753f727/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/261ae5/00000000000000007753f727/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"new-science-extended";
+src:url("https://use.typekit.net/af/b54d16/00000000000000007753f71d/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/b54d16/00000000000000007753f71d/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/b54d16/00000000000000007753f71d/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+.tk-new-science { font-family: "new-science",sans-serif; }
+.tk-new-science-extended { font-family: "new-science-extended",sans-serif; }
+
+:root,
+    :root.light {
+      --bg-colour: #ffffff;
+      --text-colour: #000000;
+      --h1-colour: #b6f9ff;
+      --h1-colour-gradient: #39cdff;
+      --brightness: 75%;
+      --drop-shadow-glow: 20px;
+      --background-transition: left;
+    }
+
+    :root.dark {
+      --bg-colour: #000000;
+      --text-colour: #ffffff;
+      --h1-colour: #b6f9ff;
+      --h1-colour-gradient: #39cdff;
+      --brightness: 150%;
+      --drop-shadow-glow: 10px;
+      --background-transition: right;
+    }
+
+body {
+    font-size: 34px;
+    font-family: new-science, sans-serif;
+    transition: all .5s ease-in-out;
+    background-color: var(--bg-colour);
+    color: var(--text-colour);
+    margin: 0;
+  }
+
+a {
+    text-decoration: underline wavy; 
+    text-decoration-thickness: 2px; 
+    color: var(--text-colour);
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+a:hover {
+    transition: all .1s ease-in-out;
+    filter: brightness(var(--brightness)) drop-shadow(0px 0px var(--drop-shadow-glow));
+}
+
+h1 {
+    background-image: linear-gradient(90deg, var(--h1-colour-gradient), var(--h1-colour), var(--h1-colour-gradient));
+    background-size: 200vw;
+    background-position: var(--background-transition);
+    background-clip: text;
+    transition: all .5s ease-in-out;
+    color: transparent;
+    text-decoration: none;
+}
+
+main {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.inner {
+    width: 50%;
+    margin-top: 5%;
+    display: inline-block;
+    text-align: center;
+  }
+
+ul.links {
+    list-style: none;
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+  }
+  
+ul.links li {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    margin-right: 20px;
+  }
+
+.theme-btn {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  display: inline-block;
+  vertical-align: middle;
+}
+.theme-btn img {
+  padding: 0px; 
+  margin-right: 0px; 
+  margin-left: 0px;
+  border: none; 
+  background-color: transparent;
+  height: 3em;
+  width: 3em;
+}
+.theme-btn.light {
+    display: none;
+}
+.dark .theme-btn.theme-btn.light {
+  display: inline-block;
+}
+.dark .theme-btn.dark {
+    display: none;
+}
+
+img {
+  transition: all .5s ease-in-out;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.image-full {
+  width: 100%;
+}
+
+.header {
+  padding-bottom: 2%;
+  padding-top: 2%;
+  padding-left: 10%;
+  background-image: linear-gradient(90deg, var(--h1-colour-gradient), var(--h1-colour), var(--h1-colour-gradient));
+  background-size: 200vw;
+  background-position: var(--background-transition);
+  color: var(--bg-colour);
+  transition: all .5s ease-in-out;
+}
+
+#popuptext {
+  transition: all 0.5s ease-in-out;
+}
+
+@keyframes float-in {
+  0% {opacity: 0; transform: translateY(100px);}
+  100% {opacity: 1; transform: translateY(0);}
+}
